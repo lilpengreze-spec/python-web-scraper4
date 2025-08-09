@@ -47,7 +47,7 @@ print(">> Working directory:", os.getcwd())
 from scrapers.yelp_scraper import YelpScraper
 from scrapers.amazon_scraper import AmazonScraper
 from scrapers.walmart_scraper import WalmartScraper
-from scrapers.universal_scraper import UniversalScraper
+from scrapers.universal_scraper import EnterpriseUniversalScraper
 from utils.validators import validate_input
 from utils.helpers import setup_logging, format_response
 from utils.review_analyzer import ReviewAnalyzer, ReviewFilter, create_filter_from_params
@@ -85,7 +85,7 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 # Initialize scrapers and real scraping engine
-universal_scraper = UniversalScraper()
+universal_scraper = EnterpriseUniversalScraper()
 review_analyzer = ReviewAnalyzer()
 
 # Initialize REAL scraping engine for live data extraction
