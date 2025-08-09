@@ -1,0 +1,76 @@
+# Enterprise Real Scraper Requirements
+# This file contains all dependencies for the advanced real scraper
+
+# Core web scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Advanced scraping libraries
+selenium==4.15.2
+undetected-chromedriver==3.5.3
+playwright==1.40.0
+cloudscraper==1.2.71
+
+# User agent and proxy management
+fake-useragent==1.4.0
+requests-html==0.10.0
+
+# Date parsing
+python-dateutil==2.8.2
+
+# Anti-detection and browser automation
+webdriver-manager==4.0.1
+pyautogui==0.9.54
+
+# Data processing and analysis
+pandas==2.1.4
+numpy==1.24.3
+
+# Image processing (for OCR capabilities)
+Pillow==10.1.0
+pytesseract==0.3.10
+
+# Async support
+aiohttp==3.9.1
+asyncio==3.4.3
+
+# Database support (for caching)
+sqlite3
+
+# Logging and monitoring
+loguru==0.7.2
+
+# Text processing
+textblob==0.17.1
+nltk==3.8.1
+
+# Proxy support
+pysocks==1.7.1
+
+# Network utilities
+urllib3==2.1.0
+certifi==2023.11.17
+
+# Configuration management
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Performance optimization
+concurrent-futures==3.1.1
+
+# Optional AI/ML libraries for content analysis
+scikit-learn==1.3.2
+transformers==4.36.0
+torch==2.1.1
+
+# Development and debugging
+ipython==8.18.1
+jupyter==1.0.0
+
+# Flask dependencies (for your existing API)
+flask==3.0.0
+flask-cors==4.0.0
+
+# Existing requirements from your project
+yelpapi==2.5.1
